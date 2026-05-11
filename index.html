@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Beauty Academy</title>
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family:Arial;
+    }
+
+    body{
+      background:#f8f3ed;
+      color:#333;
+    }
+
+    /* HEADER */
+    header{
+      background:#6b0000;
+      color:white;
+      padding:20px 10%;
+    }
+
+    nav{
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+    }
+
+    nav ul{
+      display:flex;
+      gap:20px;
+      list-style:none;
+    }
+
+    .hero{
+      display:flex;
+      align-items:center;
+      justify-content:space-between;
+      padding:60px 0;
+    }
+
+    .hero-text h1{
+      font-size:50px;
+      margin-bottom:20px;
+    }
+
+    .hero-text p{
+      margin-bottom:20px;
+    }
+
+    .btn{
+      background:#e7b55b;
+      padding:12px 24px;
+      border:none;
+      border-radius:30px;
+      cursor:pointer;
+    }
+
+    .hero img{
+      width:320px;
+      border-radius:20px;
+    }
+
+    /* SERVICES */
+    section{
+      padding:60px 10%;
+      text-align:center;
+    }
+
+    .cards{
+      display:grid;
+      grid-template-columns:repeat(3,1fr);
+      gap:20px;
+      margin-top:40px;
+    }
+
+    .card{
+      background:white;
+      padding:20px;
+      border-radius:20px;
+      box-shadow:0 5px 10px rgba(0,0,0,0.1);
+    }
+
+    .card img{
+      width:100%;
+      border-radius:15px;
+      margin-bottom:15px;
+    }
+
+    footer{
+      background:#6b0000;
+      color:white;
+      text-align:center;
+      padding:20px;
+    }
+
+  </style>
+</head>
+<body>
+
+  <header>
+
+    <nav>
+      <h2>ThuTrang</h2>
+
+      <ul>
+        <li>Home</li>
+        <li>Dịch vụ</li>
+        <li>Academy</li>
+        <li>Liên hệ</li>
+      </ul>
+    </nav>
+
+    <div class="hero">
+
+      <div class="hero-text">
+        <h1>Beauty Academy</h1>
+
+        <p>
+          Phun xăm thẩm mỹ - Tiêm filler - Botox - Chăm sóc da
+        </p>
+
+        <button class="btn">ĐẶT NGAY</button>
+      </div>
+
+      <img src="image.jpg">
+
+    </div>
+
+  </header>
+
+
+  <section>
+
+    <h1>DỊCH VỤ NỔI BẬT</h1>
+
+    <div class="cards">
+
+      <div class="card">
+        <img src="image.jpg">
+        <h3>Phun Xăm</h3>
+        <p>Phun môi - điêu khắc chân mày</p>
+      </div>
+
+      <div class="card">
+        <img src="image.jpg">
+        <h3>Filler Botox</h3>
+        <p>Trẻ hóa da chuyên sâu</p>
+      </div>
+
+      <div class="card">
+        <img src="image.jpg">
+        <h3>Chăm Sóc Da</h3>
+        <p>Điều trị mụn - dưỡng da</p>
+      </div>
+
+    </div>
+
+  </section>
+
+
+  <footer>
+    © 2026 Beauty Academy
+  </footer>
+
+</body>
+</html>
